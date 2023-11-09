@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Edu TAS Beginner", cursive;
 }
 
 .top-nav {
@@ -92,6 +92,8 @@ h1 {
   line-height: 48px;
   color: black;
   cursor: pointer;
+  text-align: center;
+  margin: 1rem 0;
 }
 h1:hover {
   opacity: 1;
@@ -146,5 +148,47 @@ img {
 
   .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
+  }
+
+  .ingredientes {
+    padding: 1rem;
+  }
+
+  .ingredientes__paragrafo {
+    font-weight: 700;
+  }
+
+  .ingredientes__ul {
+    padding: 1rem;
+  }
+  
+  .apresentacao {
+    padding: 1rem;
+  }
+
+  .apresentacao__paragrafo {
+    margin-top: 1rem;
+  }
+
+  .videoreceita {
+    padding: 1rem;
+  }
+
+  iframe {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .preparacao {
+    padding: 1rem;
+  }
+
+  .preparacao__ol {
+    margin-top: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .preparacao__ol li {
+    margin-bottom: 0.5rem;
   }
 }
